@@ -1,10 +1,8 @@
 import axios, { AxiosInstance, AxiosRequestConfig } from 'axios';
+import { RestlyResponseOk } from './responses/success/restly-response-ok';
 
 export type RestlyResponse<T> =
- | { status: 'success'; statusCode: 200; data: T }
- | { status: 'success'; statusCode: 200; data: T }
- | {}
- | {}
+ | RestlyResponseOk<T>
 
 export class Restly {
   private client: AxiosInstance;
