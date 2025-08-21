@@ -1,2 +1,6 @@
 # restly
-Restly é uma biblioteca TypeScript que padroniza e simplifica chamadas RESTful usando Axios, com suporte a tipagem, tratamento de erros e respostas estruturadas.
+Restly é uma biblioteca leve e extensível desenvolvida em TypeScript para facilitar e padronizar o consumo de APIs RESTful em aplicações front-end ou back-end.
+
+Construída sobre o Axios, Restly oferece uma camada de abstração que centraliza as configurações de requisições HTTP, aplica boas práticas REST e fornece tratamento consistente de respostas e erros.
+
+Ideal para times que desejam manter o código mais limpo, coeso e com menos repetição na integração com APIs, especialmente em ambientes que utilizam TypeScript.
